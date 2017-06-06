@@ -1,2 +1,2 @@
-# Projeto Backend do Site da Escola de Educação Infantil Algodão Doce
-Site instituicional da Escola de Educação Infantil Algodão Doce
+# Backend do Site
+Projeto backend do site institucional da Escola de Educação Infantil Algodão Doce.

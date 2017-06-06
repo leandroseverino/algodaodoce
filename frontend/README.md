@@ -1,2 +1,2 @@
-# Projeto Frontend do site da Escola de Educação Infantil Algodão Doce
-Site instituicional da Escola de Educação Infantil Algodão Doce
+# Frontend do site
+Projeto Frontend do site institucional da Escola de Educação Infantil Algodão Doce.
