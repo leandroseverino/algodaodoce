@@ -519,3 +519,56 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.page-scroll a {
+    font-family: 'Chewy', cursive;
+    font-size: 1.5em !important;
+}
+#page-title { 
+    font-family: 'Chewy', cursive;
+    font-size: 1.7em !important;
+}
+
+span.skills, label { 
+    font-family: 'Righteous', cursive !important;
+}
+
+h2, #welcome_message {
+    font-family: 'Chewy', cursive;
+    font-size: 2.7em !important;
+}
+
+h3 {
+    font-family: 'Chewy', cursive;
+    font-size: 2.1em !important;
+}
+
+#welcome_message {
+    font-size: 3.7em !important;
+}
+
+.empresa {
+    padding-bottom: 140px;
+}
+
+.empresa p {
+    text-align: right;
+}
+
+.cardapio p {
+    text-align: right !important;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100% !important;
+    width:100% !important;
+    position:absolute;
+}
