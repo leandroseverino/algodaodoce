@@ -552,7 +552,8 @@ h3 {
 }
 
 .empresa p {
-    text-align: right;
+    text-align: justify;
+    text-indent: 40px;
 }
 
 .cardapio p {
