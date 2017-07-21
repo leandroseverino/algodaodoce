@@ -542,7 +542,15 @@ h3 {
     font-family: 'Chewy', cursive;
     font-size: 2.1em !important;
 }
+.thumbnail {margin-bottom:6px;}
 
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}
+
+#modal-gallery { width:  100%;}
 #welcome_message {
     font-size: 3.7em !important;
 }
