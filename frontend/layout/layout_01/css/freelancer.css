@@ -114,6 +114,7 @@ header {
     text-align: center;
     color: #000;
     background: #FFF200;
+    height: 100vh;
 }
 
 header .container {
