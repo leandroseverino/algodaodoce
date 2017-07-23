@@ -1139,7 +1139,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Sobre a Algodão Doce</h3>
-                        <p>Uma escola ecológicamente comprometida com o meio Ambiente <a href="http://maxigenios.com.br">Meio Ambiente</a>.</p>
+                        <p>Uma escola ecológicamente comprometida com o meio Ambiente <a href="/">Meio Ambiente</a>.</p>
                     </div>
                 </div>
             </div>
@@ -1250,8 +1250,8 @@
         </div>
     </div>
     <!-- Gallery Modal -->
-    <div class="modal" id="modal-gallery" role="dialog">
-        <div class="modal-dialog">
+    <div class="modal fade" id="modal-gallery" role="dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <button class="close" type="button" data-dismiss="modal">×</button>
@@ -1324,6 +1324,23 @@
                 // show the modal
                 $("#modal-gallery").modal("show");
             });
+            $('#modal-gallery').on('show.bs.modal', function (e) {
+                var top = $("body").scrollTop(); $("body").css('position','fixed').css('overflow','hidden').css('top',-top).css('width','100%').css('height',top+5000)
+                console.log('Encerrando a modal');
+                //return false;
+            })
+            $('#modal-gallery').on('shown.bs.modal', function (e) {
+                console.log('Encerrando a modal');
+                
+                //$('body').css('position','fixed');
+                //return false;
+            })
+            $('#modal-gallery').on('hide.bs.modal', function (e) {
+                var top = $("body").position().top; $("body").css('position','relative').css('overflow','auto').css('top',0).scrollTop(-top);
+                //$('body').css('overflow', 'auto');
+                //return false;
+            })
+
         });
     </script>
 </body>

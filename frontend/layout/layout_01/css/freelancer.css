@@ -537,7 +537,11 @@ h2, #welcome_message {
     font-family: 'Chewy', cursive;
     font-size: 2.7em !important;
 }
-
+body.modal-open {
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+}
 h3 {
     font-family: 'Chewy', cursive;
     font-size: 2.1em !important;
@@ -551,6 +555,7 @@ h3 {
 }
 
 #modal-gallery { width:  100%;}
+
 #welcome_message {
     font-size: 3.7em !important;
 }
