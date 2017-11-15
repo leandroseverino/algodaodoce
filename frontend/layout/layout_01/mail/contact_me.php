@@ -16,8 +16,8 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 	
 // Create the email and send the message
-$to = 'escolainfantilalgodaodoce@hotmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-// $to = 'lseverino@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+// $to = 'escolainfantilalgodaodoce@hotmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'albertonpatriciasufredini@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Contato realizado pelo site:  $name";
 $email_body = "Você recebeu uma mensagem do formulário de contato do site.\n\n"."Aqui os detalhes:\n\nNome: $name\n\nE-mail: $email_address\n\nFone: $phone\n\nMensagem:\n$message";
 $headers = "From: noreply@algodaodocecanoas.com.br\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
