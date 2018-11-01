@@ -446,10 +446,10 @@
                     <h4><i class="fa fa-cutlery"></i> Cardápios para Download</h4>
                     <ul style="list-style: none; line-height: 4em;">
                         <li>
-                            <a href="cardapios/outubro_2018/cardapio_outubro_2018.pdf"
+                            <a href="cardapios/novembro_2018/cardapio_novembro_2018.pdf"
                                title="Clique no link para visualizar o cardápio"
                                target="_blank">
-                                <i class="fa fa-file-pdf-o fa-2x"></i> Cardápio de 01/10 à 31/10.
+                                <i class="fa fa-file-pdf-o fa-2x"></i> Cardápio de 01/11 à 30/11.
                             </a>
                         </li>                        
                     </ul>
@@ -589,22 +589,22 @@
                             <tr>
                                 <td>Junho</td>
                                 <td>01/06/2018</td>
-                                <td>Feriado Ponte</td>
+                                <td><s>Feriado Ponte</s></td>
                             </tr>
                             <tr class="active">
                                 <td>Junho</td>
                                 <td>04/06/2018 à 18/06/2018</td>
-                                <td>Projeto natureza</td>
+                                <td><s>Projeto natureza</s></td>
                             </tr>
                             <tr>
                                 <td>Junho</td>
                                 <td>18/06/2018 à 29/06/2018</td>
-                                <td>Projeto Junino</td>
+                                <td><s>Projeto Junino</s></td>
                             </tr>
                             <tr class="active">
                                 <td>Junho</td>
                                 <td>25/06/2018 à 29/06/2018</td>
-                                <td>Semana Junina</td>
+                                <td><s>Semana Junina</s></td>
                             </tr>
                         </table>
                     </div>
@@ -621,7 +621,7 @@
                             <tr>
                                 <td>Julho</td>
                                 <td>02/07/2018 à 13/07/2018</td>
-                                <td>Projeto amizade</td>
+                                <td><s>Projeto amizade</s></td>
                             </tr>
                             <tr class="active">
                                 <td>Julho</td>
@@ -2051,8 +2051,8 @@
                     <h4 class="modal-title"></h4>
                 </div>
                 <div class="modal-body">
-                    <div id="modal-carousel" class="carousel">        
-                        <div class="carousel-inner"></div>                    
+                    <div id="modal-carousel" class="carousel">
+                        <div class="carousel-inner"></div>
                         <a class="carousel-control left" href="#modal-carousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
                         <a class="carousel-control right" href="#modal-carousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
                     </div>
@@ -2102,15 +2102,15 @@
             $(".row .thumbnail").click(function(){
                 var content = $(".carousel-inner");
                 var title = $(".modal-title");
-            
-                content.empty();  
+
+                content.empty();
                 title.empty();
-            
-                var id = this.id;  
+
+                var id = this.id;
                 var repo = $("#img-repo .item");
                 var repoCopy = repo.filter("#" + id).clone();
                 var active = repoCopy.first();
-            
+
                 active.addClass("active");
                 title.html(active.find("img").attr("title"));
                 content.append(repoCopy);
