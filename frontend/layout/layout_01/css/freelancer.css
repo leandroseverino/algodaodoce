@@ -586,3 +586,11 @@ h3 {
     width:100% !important;
     position:absolute;
 }
+
+.enable {
+    display: block;
+}
+
+.disabled {
+    display: none;
+}

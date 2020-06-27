@@ -18,7 +18,6 @@ $(function() {
       podeProsseguir = false;
     }
     return podeProsseguir;
-    event.preventDefault();    
   });
 
   $("a.jardim").on("click", function(event) {
@@ -33,7 +32,6 @@ $(function() {
       podeProsseguir = false;
     }
     return podeProsseguir;
-    event.preventDefault();    
   });
 });
 

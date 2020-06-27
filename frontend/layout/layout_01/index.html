@@ -143,10 +143,105 @@
         </div>
     </header>
     <section id="portfolio">
-        <div class="container">
+        <div class="container text-center" style="margin-bottom: 30px;font-size: 20px;">
+            <div class="row text-center"></div>
+                <label for="weekSelector">Selecione a semana:</label>
+                <select id="weekSelector" onchange="showWeek()" value="">
+                    <option>Selecione a semana:</option>
+                    <option value="29-06-2020_03-07-2020">29/06/2020 à 03/07/2020</option>
+                    <option value="22-06-2020_26-06-2020">22/06/2020 à 26/06/2020</option>
+                    <option value="15-06-2020_19-06-2020">15/06/2020 à 19/06/2020</option>
+                </select>
+            </div>
+        </div>
+        <div id="29-06-2020_03-07-2020" class="container weeks enable">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Atividades desta semana (22/06/2020 à 26/06/2020):</h2>
+                    <h3>Atividades desta semana (29/06/2020 à 03/07/2020):</h3>
+                    <hr class="star-primary rosa">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <h4><i class="fa fa-calendar"></i> Maternal</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover">
+                            <tr class="info">
+                                <th>Atividade</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity maternal"
+                                        href="/atividades/29_06_2020_03_07_2020/maternal/atividade_maternal_quarentema_1.docx"
+                                        title="Atividade maternal quarentema 1">
+                                        Atividade maternal quarentena 1
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity maternal"
+                                        href="/atividades/29_06_2020_03_07_2020/maternal/atividade_maternal_quarentema_2.docx"
+                                        title="Atividade maternal quarentema 2">
+                                        Atividade maternal quarentena 2
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity maternal"
+                                        href="/atividades/29_06_2020_03_07_2020/maternal/atividade_maternal_quarentema_3.docx"
+                                        title="Atividade maternal quarentema 3">
+                                        Atividade maternal quarentena 3
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2">
+                    <h4><i class="fa fa-calendar"></i> Jardim</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover">
+                            <tr class="info">
+                                <th>Atividade</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity jardim"
+                                        href="/atividades/29_06_2020_03_07_2020/jardim/atividade_jardim_quarentema_1.docx"
+                                        title="Atividade jardim quarentena 1">
+                                        Atividade jardim quarentena 1
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity jardim"
+                                        href="/atividades/29_06_2020_03_07_2020/jardim/atividade_jardim_quarentema_2.docx"
+                                        title="Atividade jardim quarentena 2">
+                                        Atividade jardim quarentena 2
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity jardim"
+                                        href="/atividades/29_06_2020_03_07_2020/jardim/atividade_jardim_quarentema_3.docx"
+                                        title="Atividade jardim quarentena 3">
+                                        Atividade jardim quarentena 3
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="22-06-2020_26-06-2020" class="container weeks disabled">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Atividades desta semana (22/06/2020 à 26/06/2020):</h3>
                     <hr class="star-primary rosa">
                 </div>
             </div>
@@ -219,6 +314,90 @@
                                         href="/atividades/22_06_2020_26_06_2020/jardim/atividade_jardim_quarentema_3.docx"
                                         title="Atividade jardim quarentena 3">
                                         Atividade jardim quarentena 3
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="15-06-2020_19-06-2020" class="container weeks disabled">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Atividades desta semana (15/06/2020 à 19/06/2020):</h3>
+                    <hr class="star-primary rosa">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <h4><i class="fa fa-calendar"></i> Maternal</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover">
+                            <tr class="info">
+                                <th>Atividade</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity maternal"
+                                        href="/atividades/15_06_2020_19_06_2020/maternal/atividade_maternal_quarentema_1.docx"
+                                        title="Atividade maternal quarentema 1">
+                                        Atividade maternal quarentena 1
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity maternal"
+                                        href="/atividades/15_06_2020_19_06_2020/maternal/atividade_maternal_quarentema_2.docx"
+                                        title="Atividade maternal quarentema 2">
+                                        Atividade maternal quarentena 2
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity maternal"
+                                        href="/atividades/15_06_2020_19_06_2020/maternal/atividade_maternal_quarentema_3.docx"
+                                        title="Atividade maternal quarentema 3">
+                                        Atividade maternal quarentena 3
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2">
+                    <h4><i class="fa fa-calendar"></i> Jardim</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover">
+                            <tr class="info">
+                                <th>Atividade</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity jardim"
+                                        href="/atividades/15_06_2020_19_06_2020/jardim/atividade_para_site_cores.docx"
+                                        title="Atividade para site Cores">
+                                        Atividade para site cores
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity jardim"
+                                        href="/atividades/15_06_2020_19_06_2020/jardim/atividades_pandemia_junho_1.docx"
+                                        title="Atividade2 pandemia Junho 1">
+                                        Atividade2 pandemia Junho 1
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="activity jardim"
+                                        href="/atividades/15_06_2020_19_06_2020/jardim/atividades_pandemia_junho_2.docx"
+                                        title="Atividades pandemia Junho 2">
+                                        Atividades pandemia Junho 2
                                     </a>
                                 </td>
                             </tr>

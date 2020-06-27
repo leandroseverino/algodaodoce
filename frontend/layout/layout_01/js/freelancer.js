@@ -47,3 +47,22 @@ $("body").scrollspy({
 $(".navbar-collapse ul li a").click(function() {
   $(".navbar-toggle:visible").click();
 });
+
+function showWeek() {
+  var selectComponent = document.getElementById("weekSelector");
+  var selectedValue = selectComponent.options[selectComponent.selectedIndex].value;
+  
+  var weeks = document.getElementsByClassName('weeks');
+
+  for (var index = 0; index < weeks.length; index++) {
+    var element = weeks[index];
+    element.classList.remove('enable');
+    element.classList.add('disabled');
+    if (element.id === selectedValue) {
+      element.classList.remove('disabled');
+      element.classList.add('enable');
+    } else {      
+      element.classList.add('disabled');
+    }    
+  } 
+}
