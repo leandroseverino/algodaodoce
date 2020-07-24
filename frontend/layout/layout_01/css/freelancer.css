@@ -594,3 +594,51 @@ h3 {
 .disabled {
     display: none;
 }
+
+#popup_content_wrap {
+    width: 100%;
+    height: 100%;   
+    top: 0;
+    left: 0;   
+    position: fixed;	
+    background: rgba(0, 0, 0, 0.74);
+    z-index: 9999999;
+}
+
+#popup_content {
+    width: 70%;
+    padding:20px;
+    padding-top: 50px;
+    position: relative;
+    top: 15%;
+    left: 25%;
+    background: #fff;    
+    border: 10px solid #00cbfe;
+}
+#popup_content div h1 {
+    width: 100%;
+    font-size: 2.8rem;
+}
+#popup_content div {
+    width: 50%;
+    min-height: 500px;
+    
+}
+#popup_content div.urso {  
+    float: left;
+    margin-left: -10px;
+    
+}
+#popup_content div.urso img {
+    width: 100%;
+}
+#popup_content div.recado {  
+    float: right;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+#popup_content div p { 
+    color: blue;
+    width: 100%;
+    font-size: 1.8rem;
+}
