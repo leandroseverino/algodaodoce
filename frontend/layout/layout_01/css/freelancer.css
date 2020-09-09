@@ -597,8 +597,7 @@ h3 {
 
 #popup_content_wrap {
     width: 100%;
-    height: 100%;   
-    top: 0;
+    top: 20%;
     left: 0;   
     position: fixed;	
     background: rgba(0, 0, 0, 0.74);
@@ -606,12 +605,10 @@ h3 {
 }
 
 #popup_content {
-    width: 70%;
-    padding:20px;
-    padding-top: 50px;
+    width: 90%;
     position: relative;
-    top: 15%;
-    left: 25%;
+    top: 50%;
+    margin: 0px auto;
     background: #fff;    
     border: 10px solid #00cbfe;
 }
@@ -620,25 +617,34 @@ h3 {
     font-size: 2.8rem;
 }
 #popup_content div {
-    width: 50%;
-    min-height: 500px;
+    min-height: 400px;
     
 }
 #popup_content div.urso {  
     float: left;
     margin-left: -10px;
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: right;
+    vertical-align: middle;
     
 }
 #popup_content div.urso img {
-    width: 100%;
+    width: max-content;
+    max-width: 100%;
+    vertical-align: middle;
+    padding-top: inherit;
 }
 #popup_content div.recado {  
     float: right;
     margin-left: 10px;
     padding-bottom: 10px;
+    padding-top: 20px;
+    width: 58%;
 }
 #popup_content div p { 
     color: blue;
-    width: 100%;
-    font-size: 1.8rem;
+    width: 95%;
+    font-size: 1.6rem;
 }
