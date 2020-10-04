@@ -618,7 +618,8 @@ h3 {
 }
 #popup_content div {
     min-height: 400px;
-    
+    overflow: scroll;
+    max-height: 400px;
 }
 #popup_content div.urso {  
     float: left;
